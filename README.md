@@ -1,37 +1,37 @@
-# A Survey on LLM-based Autonomous Agents
+# LLM 기반 자율 에이전트에 대한 조사
 
 ![Growth Trend](assets/trend.png)
 
-Autonomous agents are designed to achieve specific objectives through self-guided instructions. With the emergence and growth of large language models (LLMs), there is a growing trend in utilizing LLMs as fundamental controllers for these autonomous agents. While previous studies in this field have achieved remarkable successes, they remain independent proposals with little effort devoted to a systematic analysis. To bridge this gap, we conduct a comprehensive survey study, focusing on the construction, application, and evaluation of LLM-based autonomous agents. In particular, we first explore the essential components of an AI agent, including a profile module, a memory module, a planning module, and an action module. We further investigate the application of LLM-based autonomous agents in the domains of natural sciences, social sciences, and engineering. Subsequently, we delve into a discussion of the evaluation strategies employed in this field, encompassing both subjective and objective methods. Our survey aims to serve as a resource for researchers and practitioners, providing insights, related references, and continuous updates on this exciting and rapidly evolving field. 
+자율 에이전트는 자체 지침을 통해 특정 목표를 달성하도록 설계되었습니다. 대규모 언어 모델(LLM)의 출현과 성장으로 이러한 자율 에이전트의 기본 컨트롤러로 LLM을 활용하는 경향이 증가하고 있습니다. 이 분야의 이전 연구들은 주목할만한 성공을 달성했지만, 체계적인 분석에는 별도의 노력이 거의 기울여지지 않았습니다. 이 격차를 메우기 위해 우리는 LLM 기반 자율 에이전트의 구축, 응용 및 평가에 초점을 맞춘 종합적인 조사 연구를 수행합니다. 특히, 우리는 AI 에이전트의 핵심 구성 요소인 프로필 모듈, 메모리 모듈, 계획 모듈 및 행동 모듈을 탐구합니다. 그런 다음 자연 과학, 사회 과학 및 공학 분야에서 LLM 기반 자율 에이전트의 응용을 조사합니다. 이어서 이 분야에서 사용된 평가 전략에 대한 논의를 심화하며, 주관적 및 객관적 방법을 모두 포함합니다. 우리의 조사는 연구자와 실무자에게 통찰력, 관련 참고 문헌 및 이 흥미롭고 빠르게 진화하는 분야에 대한 지속적인 업데이트를 제공하는 자원으로서의 역할을 하기를 목표로 합니다.
 
-**📍 This is the first released and published survey paper in the field of LLM-based autonomous agents.**
+**📍 이는 LLM 기반 자율 에이전트 분야에서 처음으로 발표된 조사 논문입니다.**
 
-Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://journal.hep.com.cn/fcs/EN/10.1007/s11704-024-40231-1) 
+논문 링크:  [LLM 기반 자율 에이전트에 대한 조사](https://journal.hep.com.cn/fcs/EN/10.1007/s11704-024-40231-1) 
 
 
 ## Update Records
-- 🔥 [25/3/2024] Our survey paper has been accepted by Frontiers of Computer Science, which is the first published survey paper in the field of LLM-based agents.
+- 🔥  [2024년 3월 25일] 우리의 조사 논문이 컴퓨터 과학 전선에 의해 받아들여졌으며, 이는 LLM 기반 에이전트 분야에서 처음으로 발표된 조사 논문입니다.
   
-- 🔥 [9/28/2023] We have compiled and summarized papers related to LLM-based Agents that have been accepted by Neurips 2023 in the repository [LLM-Agent-Paper-Digest](https://github.com/XueyangFeng/LLM-Agent-Paper-Digest). This repository will continue to be updated with accepted agent-related papers in the future.
+- 🔥 [2023년 9월 28일] 우리는 Neurips 2023에 받아들여진 LLM 기반 에이전트 관련 논문을 정리하고 요약하여 LLM-Agent-Paper-Digest 저장소에 컴파일했습니다. 이 저장소는 앞으로 받아들여진 에이전트 관련 논문으로 계속 업데이트될 것입니다.
   
-- 🔥 [9/8/2023] The second version of our survey has been released on arXiv.
+- 🔥 [2023년 9월 8일] 우리의 조사의 두 번째 버전이 arXiv에 출시되었습니다.
    <details>
-    <summary>Updated contents</summary>
+    <summary>업데이트된 내용</summary>
 
-    -  **📚 Additional References**
+    -  **📚 추가 참고 문헌**
         - We have added 31 new works until 9/1/2023 to make the survey more comprehensive and up-to-date.
 
-    -  **📊 New Figures**
-        - **Figure 3:** This is a new figure illustrating the differences and similarities between various planning approaches. This helps in gaining a clearer understanding of the comparisons between different planning methods.
+    -  **📊 새로운 그림**
+        - **그림 3:** 다양한 계획 접근법 사이의 차이점과 유사점을 설명하는 새로운 그림입니다. 이를 통해 다른 계획 방법 사이의 비교를 더 명확하게 이해할 수 있습니다.
         ![single-path and multi-path reasoning](assets/planning.png)
-        - **Figure 4:** This is a new figure that describes the evolutionary path of model capability acquisition from the "Machine Learning era" to the "Large Language Model era" and then to the "Agent era." Specifically, a new concept, "mechanism engineering," has been introduced, which, along with "parameter learning" and "prompt engineering," forms part of this evolutionary path.
+        - **그림 4:** "기계 학습 시대"에서 "대규모 언어 모델 시대" 그리고 "에이전트 시대"로의 모델 능력 획득의 진화 경로를 설명하는 새로운 그림입니다. 특히, "메커니즘 엔지니어링"이라는 새로운 개념이 도입되었으며, 이는 "파라미터 학습" 및 "프롬프트 엔지니어링"과 함께 이 진화 경로의 일부를 형성합니다.
         ![Capabilities Acquisition](assets/capability.png)
 
-    -  **🔍 Optimized Classification System**
-        - We have slightly modified the classification system in our survey to make it more logical and organized. 
+    -  **🔍 최적화된 분류 시스템**
+        - 우리는 조사의 분류 체계를 약간 수정하여 더 논리적이고 조직적으로 만들었습니다.
   </details>
 
-- 🔥 [8/23/2023] The first version of our survey has been released on arXiv.<br>
+- 🔥 [2023년 8월 23일] 우리의 조사의 첫 번째 버전이 arXiv에 출시되었습니다.<br>
           
 
 <!--omit in the toc-->
@@ -1377,18 +1377,19 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
 
 <hr>
 
-## 🌐 More Comprehensive Summarization
+## 🌐 더 포괄적인 요약
 
-We are maintaining an [interactive table](https://abyssinian-molybdenum-f76.notion.site/237e9f7515d543c0922c74f4c3012a77?v=0a309e53d6454afcbe7a5a7e169be0f9&pvs=4) that contains more comprehensive papers related to LLM-based Agents. This table includes details such as tags, authors, publication date, and more, allowing you to sort, filter, and find the papers of interest to you.
+우리는 LLM 기반 에이전트와 관련된 더 포괄적인 논문들을 포함하고 있는 [인터랙티브 테이블](https://abyssinian-molybdenum-f76.notion.site/237e9f7515d543c0922c74f4c3012a77?v=0a309e53d6454afcbe7a5a7e169be0f9&pvs=4)을 유지하고 있습니다. 이 테이블에는 태그, 저자, 출판 날짜 등의 세부 정보가 포함되어 있어 관심 있는 논문을 정렬, 필터링 및 찾을 수 있습니다.
+
 ![Complete Table](assets/table.png)
 
-## 👨‍👨‍👧‍👦 Maintainers
+## 👨‍👨‍👧‍👦 유지 관리자
 - Lei Wang@[Paitesanshi](https://github.com/Paitesanshi)
 - Chen Ma@[Uily](https://github.com/Yilu114)
 - Xueyang Feng@[XueyangFeng](https://github.com/XueyangFeng)
 
-## 📚 Citation
-If you find this survey useful, please cite our paper:
+## 📚 인용
+이 조사가 유용하다고 생각되면 우리의 논문을 인용해 주세요:
 ```
 @misc{wang2023survey,
       title={A Survey on Large Language Model based Autonomous Agents}, 
@@ -1401,19 +1402,19 @@ If you find this survey useful, please cite our paper:
 ```
 
 
-## 💪 How to Contribute
-If you have a paper or are aware of relevant research that should be incorporated, please contribute via pull requests, issues, email, or other suitable methods.
+## 💪 기여하는 방법
+포함되어야 할 논문이 있거나 관련 연구를 알고 있다면, pull requests, 이슈, 이메일 또는 기타 적절한 방법을 통해 기여해 주세요.
 
 
-## 🫡 Acknowledgement
-We thank the following people for their valuable suggestions and contributions to this survey:
+## 🫡 감사의 말
+이 조사에 귀중한 제안과 기여를 한 다음 사람들에게 감사합니다:
 - Yifan Song[@Yifan-Song793](https://github.com/Yifan-Song793)
 - Qichen Zhao[@Andrewzh112](https://github.com/Andrewzh112)
 - Ikko E. Ashimine[@eltociear](https://github.com/eltociear)
 
 
-## 📧 Contact Us
-If you have any questions or suggestions, please contact us via:
-- Email: wanglei154@ruc.edu.cn, xu.chen@ruc.edu.cn
+## 📧 연락처
+질문이나 제안이 있으면 다음을 통해 연락해 주세요:
+- 이메일: wanglei154@ruc.edu.cn, xu.chen@ruc.edu.cn
 
 
